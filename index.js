@@ -37,15 +37,7 @@ function findMatching(drivers,string){
         name: 'Bobby',
         hometown: 'Tampa Bay' }
     ];
-    
-    /*function matchName(name){
-       if (!name){
-        return false;
-          }
-       const nameFound = newdrivers.includes(name);
-        return nameFound;   
-    }
-    */
+
     function matchName(drivers, name){
       const newDrivers = drivers.filter(
         function(driver){
